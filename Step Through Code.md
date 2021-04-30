@@ -20,10 +20,10 @@ Step through code is for regular people who are looking to get into coding. This
 
 ## 2 - Low-level machines
 
-1.  [Turing Machine]()
-2.  [State Machine]()
+1.  [Turing Machines]()
+2.  [State Machines]()
 3.  [Stack Memory]()
-4.  [Stack Machine]()
+4.  [Stack Machines]()
 
 ## 3 - Low-level data structures
 
@@ -94,7 +94,7 @@ Open is zero, and closed is one.
 This counting system is called binary.
 
 > Little confused?
-> In your electricity and magnetism class, you learned, a current cannot pass if the circuit is open, and a current can pass if it is closed. 
+> In your electricity and magnetism class, you learned that a current cannot pass if the circuit is open, and a current can pass if it is closed. 
 
 Here is the math behind the base-2 counting system. In this example, we are trying to write the base-10 number 13 in base-2.
 ```
@@ -236,7 +236,6 @@ machine code C: jump back to the previous instruction
 A
 B
 C
-
 ```
 
 This program will loop forever and never stop.
