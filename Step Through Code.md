@@ -94,7 +94,7 @@ Open is zero, and closed is one.
 This counting system is called binary.
 
 > Little confused?
-> In your electricity and magnetism class, you learned that a current cannot pass if the circuit is open, and a current can pass if it is closed. 
+> In your electricity and magnetism class, you learned that there is no current when the circuit is open, and a current can pass if it is closed. 
 
 Here is the math behind the base-2 counting system. In this example, we are trying to write the base-10 number 13 in base-2.
 ```
