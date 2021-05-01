@@ -10,7 +10,7 @@ Thank you!
 Step through code is for regular people who are looking to get into coding. This tutorial will start from low-level programming to higher-level programming because of the importance of learning the basics of programming before doing higher-level projects like web development, machine learning, and other cool things.
 # Glossary
 
-## 1 - Low-level concepts
+## 1 - Concepts
 
 1.  [Computers](#computers)
 2.  [Binary Numbers](#binary-numbers)
@@ -18,24 +18,23 @@ Step through code is for regular people who are looking to get into coding. This
 4.  [Logic Gates](#logic-gates)
 5.  [Machine Code](#machine-code)
 
-## 2 - Low-level machines
+## 2 - Machines
 
-1.  [Turing Machines]()
-2.  [State Machines]()
-3.  [Stack Memory]()
-4.  [Stack Machines]()
+1.  [Turing Machines](#turing-machines)
+2.  [State Machines](#state-machines)
+3.  [Stack Memory](#stack-memory)
+4.  [Stack Machines](#stack-machines)
 
-## 3 - Low-level data structures
+## 3 - Data Structures
 
 1.  [Boolean Values]()
-
 2.  [Unsigned Integers]()
 3.  [Signed Integers]()
 4.  [Floating Points]()
 5.  [Arrays]()
 6.  [Pointers]()
 
-## 4 - Low-level data structures
+## 4 - Heap Structures
 
 1.  [Heap Memory]()
 2.  [Linked Lists]()
@@ -190,7 +189,7 @@ The OR gate takes two inputs and outputs one if either of the inputs is one.
 The XOR gate (exclusive OR gate) takes two inputs and outputs one only if one of its inputs is one.
 
 ```
-# ^ is the OR gate operator
+# ^ is the XOR gate operator
 
 1 ^ 1 = 0
 0 ^ 1 = 1
@@ -203,7 +202,7 @@ The XOR gate (exclusive OR gate) takes two inputs and outputs one only if one of
 The NOT gate takes a single input and outputs one when the input value is zero. Otherwise, it outputs one.
 
 ```
-# ~ is the OR gate operator
+# ~ is the NOT gate operator
 
 ~1 = 0
 ~0 = 1
@@ -245,3 +244,31 @@ This program will loop forever and never stop.
 -   Once running instruction C, we will jump back to the previous instruction, which is instruction B.
 
 This program will increase x forever.
+# Turing Machines
+
+## What are they?
+
+They are machines that are capable of performing any calculation given a table of basic rules and instructions.
+
+Turing machines are at the core of all the other machine models of this chapter.
+
+Imagine you have a tape of colors. Each color represents a different instruction. With identical instructions, colors, you can rearrange the colors to perform various actions.  
+
+The machine code that we wrote in the last section was the table, and the labels ABC were the colors. We had a table of instructions with only three instructions. It means that we have created a Turing machine in the previous section. 
+
+However, it was not a real Turing machine because we did not have enough instruction to do other actions; we could only increment the x variable. If we had a larger instruction table, we could have performed various algorithms making it a Turing machine.# State Machines
+
+State machines perform an instruction based on the machine's internal state.
+
+## Human state machine
+
+The following example is far-fetched.
+
+We are state machines because when we hungry, a state, we want to eat something. When we are sleepy, we want to sleep. You get the gist of it.
+# Stack Memory
+
+The stack memory is a memory model used in almost every programming language.
+
+## First, what is memory?
+
+Memory is what computers use to save data, but computers do not have variables to store data like we do in mathematics.

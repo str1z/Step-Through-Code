@@ -12,4 +12,4 @@ cat "1.5 - Machine Code.md" >> $fname
 
 cat "2.1 - Turing Machines.md" >> $fname
 cat "2.2 - State Machines.md" >> $fname
-cat "2.3 - State Machines.md" >> $fname
+cat "2.3 - Stack Memory.md" >> $fname
