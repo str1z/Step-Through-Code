@@ -9,3 +9,7 @@ cat "1.2 - Binary Numbers.md" >> $fname
 cat "1.3 - Arithmetic.md" >> $fname
 cat "1.4 - Logic Gates.md" >> $fname
 cat "1.5 - Machine Code.md" >> $fname
+
+cat "2.1 - Turing Machines.md" >> $fname
+cat "2.2 - State Machines.md" >> $fname
+cat "2.3 - State Machines.md" >> $fname
