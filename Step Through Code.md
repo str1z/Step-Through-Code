@@ -113,6 +113,7 @@ So base-10 13 in base-2 is 1101
 ```
 
 > Notice that the value of the first character of every line separated by empty lines is the values used in the writing of the base-x formatted number.
+
 # Arithmetic
 
 ## If you can do regular arithmetic, you can do it in binary.
@@ -141,7 +142,9 @@ Sum of b2 011 and b2 011
 = 110
 ```
 
-You got it, right? It really is the same.# Logic Gates
+You got it, right? It really is the same.
+
+# Logic Gates
 
 ## What are they?
 
@@ -210,7 +213,9 @@ The NOT gate takes a single input and outputs one when the input value is zero. 
 
 > The AND, OR, and XOR gates are binary operators, meaning they take two inputs. NOT is a unary operator because it only takes one input value.
 
-Great, you now understand all the logic gates in a computer. Think about them and see how you can create a summation logic gate circuit with them.# Machine Code
+Great, you now understand all the logic gates in a computer. Think about them and see how you can create a summation logic gate circuit with them.
+
+# Machine Code
 
 ## What is code?
 
@@ -244,6 +249,8 @@ This program will loop forever and never stop.
 -   Once running instruction C, we will jump back to the previous instruction, which is instruction B.
 
 This program will increase x forever.
+
+
 # Turing Machines
 
 ## What are they?
@@ -256,7 +263,9 @@ Imagine you have a tape of colors. Each color represents a different instruction
 
 The machine code that we wrote in the last section was the table, and the labels ABC were the colors. We had a table of instructions with only three instructions. It means that we have created a Turing machine in the previous section. 
 
-However, it was not a real Turing machine because we did not have enough instruction to do other actions; we could only increment the x variable. If we had a larger instruction table, we could have performed various algorithms making it a Turing machine.# State Machines
+However, it was not a real Turing machine because we did not have enough instruction to do other actions; we could only increment the x variable. If we had a larger instruction table, we could have performed various algorithms making it a Turing machine.
+
+# State Machines
 
 State machines perform an instruction based on the machine's internal state.
 
@@ -265,6 +274,7 @@ State machines perform an instruction based on the machine's internal state.
 The following example is far-fetched.
 
 We are state machines because when we hungry, a state, we want to eat something. When we are sleepy, we want to sleep. You get the gist of it.
+
 # Stack Memory
 
 The stack memory is a memory model used in almost every programming language.
@@ -272,3 +282,4 @@ The stack memory is a memory model used in almost every programming language.
 ## First, what is memory?
 
 Memory is what computers use to save data, but computers do not have variables to store data like we do in mathematics.
+
